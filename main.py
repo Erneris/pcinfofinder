@@ -6,7 +6,7 @@ tk = Tk()
 hostname = socket.gethostname()
 ip_address = socket.gethostbyname(hostname)
 tk.geometry("500x500")
-tk.title("PC Info Finder 0.1")
+tk.title("PC Info Finder 0.2.1")
 cpu_name = cpuinfo.get_cpu_info()["brand_raw"]
 
 def ip_find():
